@@ -22,13 +22,11 @@ This repository demonstrates a complete data engineering workflow for processing
 ### 1. Prepare the PostgreSQL Database
 
 - Use the SQL scripts in `CreatingTablesPostgresScript/` to create all required tables in your PostgreSQL instance.
-- Example:
 
 
 ### 2. Load CSV Data into PostgreSQL
 
 - Use the scripts in `Loading_script/` to import the raw CSV files into the PostgreSQL tables you just created.
-- Example (if using Python):
 
 
 
@@ -43,7 +41,6 @@ This repository demonstrates a complete data engineering workflow for processing
 ### 4. Data Analytics in BigQuery
 
 - Once the data is in BigQuery, you can run SQL queries or connect BI tools for further analysis.
-- (If you have a dbt project for modeling in BigQuery, reference it in your documentation.)
 
 ---
 
@@ -51,7 +48,7 @@ This repository demonstrates a complete data engineering workflow for processing
 
 - **PostgreSQL** installed and running.
 - **Google Cloud Platform** account with BigQuery enabled.
-- Required Python packages (if scripts are in Python):  
+- Required Python packages:  
 - `psycopg2`, `pandas`, `google-cloud-bigquery`, etc.
 
 ---
